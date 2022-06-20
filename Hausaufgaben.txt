@@ -1,0 +1,51 @@
+for (let i = 0; i < 11; i++){
+    console.log(i);
+}
+*************************
+for (let i = 0; i < 11; i+=2){
+    console.log(i);
+}
+*************************
+for (let i = 5; i <=10; i++){
+    console.log(i);
+}
+*************************
+
+for (let i = 10; i >= 0; i--){
+    console.log(i);
+}
+**********************
+let n = 10;
+let m = 2;
+
+for (let i = n; i >= m; i--) {
+  console.log(i);
+}
+**********************
+let n = 10;
+let m = 2;
+
+for (let i = m; i <= n; i++) {
+  if (i % 2 === 0) {
+  console.log(i);
+  }
+}
+***********************
+let n = -10;
+let m = 10;
+for (let i = 1; i < numbers.length; i++) {
+	if (numbers[i] > 0) {
+		n += numbers[i];
+	} else {
+		m += numbers[i];
+	}
+}
+console.log('n', n);
+console.log('m', m);
+***********************
+let n = 10;
+for (let i = 1; i <= 10; i++) {
+	n += sum;
+	console.log(sum);
+}
+console.log(sum);

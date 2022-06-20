@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#root {
+	max-width: 1200px;
+	padding: 70px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 50px;
+}
+
+.peopl {
+	padding: 20px;
+	border: 1px solid rgb(27, 19, 65);
+	border-radius: 5px;
+	background-color: azure;
+	font-size: 1.2em;
+}

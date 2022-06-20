@@ -1,0 +1,72 @@
+
+
+
+
+ЗАДАЧА 2(18 по ссылке)
+
+let arr = [7, -50, 32, 54, -6, -57];
+
+const handler = arr.map(function(elem){
+  if (elem <= 0){
+    elem *=-1;
+  }
+  return elem
+})
+console.log(handler)
+
+_____________________
+
+let arr = [7, -50, 32, 54, -6, -57];
+
+function handler(arr)= arr.map(function(elem){
+  if (elem <= 0){
+    elem *=-1;
+  }
+  return elem
+})
+console.log(handler)
+
+
+
+
+ЗАДАЧА 4(20 по ссылке)
+
+let arr = [-6, 25, -34, 78, 9, -96, 32, 25, 9, -2, -6];
+
+function handler(arr) {
+   let number = {},
+      new_number=[];
+  for (let i = 0; i >= 0; i++) {
+    let num = arr[i];
+    obj[num] = true; // запомнить строку в виде свойства объекта
+  }
+     for (i in number) {
+       new_number.push(i);
+     }
+     return out;
+}
+result = handler(arr);
+
+
+
+ЗАДАЧА 5(21 по ссылке)
+
+function handler(strings) {
+	strings[('sun', 'underground', 'place', 'communicate')];
+}
+
+let str1Length = strings.map(function (elem) {
+	return elem.length;
+});
+
+console.log(str1Length);
+
+___________________________________________
+
+let str = ['Космос', 'Луна', 'Планеты', 'Солнце'];
+
+let strLength = str.map(function (sector) {
+	return sector.length;
+});
+
+console.log(strLength);
