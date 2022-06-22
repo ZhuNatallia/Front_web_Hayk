@@ -2,7 +2,7 @@ const product_form_elem = document.querySelector('.product_form');
 const products = [];
 
 function render() {
-	const container = document.querySelector('.product_container');
+	const container = document.querySelector('.product-container');
 	container.innerText = ' ';
 	products.forEach(({ title, price }) => {
 		const product = document.createElement('div');
@@ -14,6 +14,7 @@ function render() {
 		container.append(product);
 	});
 }
+
 product_form_elem.addEventListener('submit', (event) => {
 	event.preventDefault();
 	const { title, price } = event.target;
@@ -25,3 +26,6 @@ product_form_elem.addEventListener('submit', (event) => {
 	price.value = '';
 	render();
 });
+
+
+
